@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.column {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    transition: background .3s ease;
+}
+
+.title:hover {
+    background: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.button {
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    transition: background .3s ease;
+}
+
+.button:hover {
+    background: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
